@@ -24,6 +24,8 @@ public class CalcolaBiglietto {
 		System.out.print("Inserisci l'età del passeggero: ");
 		int userAge = sc.nextInt();
 		
+		sc.close();
+		
 		double ticketPrice = 0.21 * userKm;
 		System.out.println("Il prezzo del biglietto è: €" + String.format("%.2f", ticketPrice));
 		
